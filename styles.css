@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html, body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+    }
+
+    header{
+        position: sticky;
+        top: 0;
+        background: white;
+        height: 76px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .rightBox{
+        display: flex;
+        margin: 12px;
+    }
+
+    /* Setting of Padding between img and ul */
+    .imgLogo {
+        padding: 0;
+    }
+
+    /* Logo Image Settings */
+    .left img{
+        width: 43px;
+        height: 37px;
+    }
+
+    /* Section-1 Settings */
+    .container{ 
+        padding: 0 3vw; 
+    }
+
+    .containerHeader{ 
+        padding: 0 3vw; 
+    }
+
+    nav{
+        font-size: 12.5px;
+        font-weight: bolder;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    nav ul li{
+        list-style: none;
+        padding: 0 13px;
+    }
+
+    .section1{
+        background: white;
+    }
+
+    /* nav Input Settings */
+    .search{
+        width: 20vw;
+        padding: 10px 17px;
+        border: 0.2px solid grey;
+        background: #f7f8fd;
+        border-radius: 3px;
+    }
+
+    /* Image-1 Settings */
+    .homeImg{
+            width: 93vw;
+            margin: 20px 0 10px 0;
+    }
+
+    .moveImg{
+        width: 16.48vw;
+        /* margin: 6px 12px; */
+    }
+
+    /* Images role Settings */
+    .itemImg{
+        width: 19vw;
+        /* margin: 6px 12px; */
+    }
+
+    .CategoryImg {
+        width: 13.2vw;
+        margin: 15px;
+    }
+
+    /* All Heading Settings */
+    .subHeading {
+        margin: 50px 0 30px 0;
+    }
+
+    .p1Text {
+        font-family: serif;
+        text-align: center;
+        color: rgb(2, 2, 100);
+        font-size: 45px;
+        margin: 0;
+        min-width: 550px;
+    }
+
+    .p2Text {
+        text-align: center;
+        color: rgb(2, 2, 100);
+        font-size: larger;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .tall{
+        min-height: 10vh;
+    }
+
+    /* Footer */
+    footer {
+        margin-top: 15px;
+        background-color: rgb(247, 243, 243);
+        width: 100vw;      
+        height: 800px;
+    }
+
+    .foot-panel1 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .foot-heading{
+        color: black;
+        font-size: 15px;
+        font-weight: 800;
+    }
+
+    .foot-panel1 ul {
+        margin-top: 30px;
+    }
+
+    .foot-panel1 ul a {
+        display: block;
+        font-size: 14px;
+        font-weight: normal;
+        margin-top: 6px;
+        color: rgb(102, 101, 101);
+        text-decoration: none;
+    }
+
+    .foot-paragraphs {
+        margin: 10px 100px 10px 165px;
+    }
+
+    .foot-para{
+        font-size: 14px;
+        font-weight: normal;
+        color: rgb(102, 101, 101);
+        line-height: 28px;
+    }
+
+    footer a:hover{
+        color: blue;
+    }
+
+    @media (max-width: 450px) { 
+    .search {
+        width: 72vw;
+        padding: 3px 17px;
+    }
+}
+
+@media (max-width: 990px) { 
+
+    header{ 
+        height:130px;
+        min-width: 550px;
+    }
+
+    nav ul li {
+        list-style: none;
+        padding: 0 5px;
+        font-size: 10px;
+    }
+
+    .containerHeader {
+        padding: 0 2vw;
+    }
+
+    .homeImg{
+        margin: 20px 0 20px 0;
+    }
+
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section1{
+        background: white;
+        min-width: 550px;
+    }
+
+    .left img{
+        width: 33px;
+        height: 27px;
+    }
+
+    .subHeading {
+        margin: 30px 0 20px 0;
+    }
+
+    .p1Text {
+        font-size: 20px;
+    }
+
+    .p2Text {
+        font-size: small;
+    }
+
+    .search {
+        padding: 3px 17px;
+    }
+
+    .right{ 
+        flex-direction: column;
+    }
+
+    .rightBox{
+        display: flex;
+        margin: 12px;
+    }
+
+    footer {   
+        height: 700px;
+        min-width: 550px;
+    }
+
+    .foot-paragraphs {
+        margin: 10px 40px 10px 100px;
+    }
+}
